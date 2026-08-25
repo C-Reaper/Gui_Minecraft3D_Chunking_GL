@@ -385,9 +385,7 @@ void* Worker_Thread(void* arg){
 
 void Setup(AglWindow* w){
 	Menu_Set(1);
-
 	Random_Set(Time_Nano());
-	Random_Get(6969);
 
 	cubeSides1 = Vector_New(sizeof(CubeSide));
 	cubeSides2 = Vector_New(sizeof(CubeSide));
